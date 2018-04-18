@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dublin Bike Information</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+
+</resources>

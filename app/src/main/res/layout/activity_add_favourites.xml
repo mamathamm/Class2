@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/fab_margin"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="project.dublin.com.dublin.AddFavourites">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From Location"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:id="@+id/from_location"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To Location"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/to_location"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:imeOptions="actionNext"
+        android:editable="false"
+        android:inputType="text"
+        android:clickable="true"
+        android:id="@+id/date"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comments"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:id="@+id/comments"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseimage"
+        android:text="choose Image"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageview"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:src="@drawable/ic_launcher_background"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/idRecyclerViewHorizontalList"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/ten_dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/submit_trip"
+        android:text="Submit Trip"/>
+
+</LinearLayout>

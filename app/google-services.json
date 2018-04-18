@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "892982683524",
+    "firebase_url": "https://dublin-1a97c.firebaseio.com",
+    "project_id": "dublin-1a97c",
+    "storage_bucket": "dublin-1a97c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892982683524:android:30fec7d926e6b281",
+        "android_client_info": {
+          "package_name": "project.dublin.com.dublin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892982683524-pp7ttrv7qf9i5dmjm8hjbaj9bop53frf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.dublin.com.dublin",
+            "certificate_hash": "77e00034279f570c698610a3edf67692ba6e686f"
+          }
+        },
+        {
+          "client_id": "892982683524-ucpac4na6gnsoukmeaehjk0111t1gmre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.dublin.com.dublin",
+            "certificate_hash": "e47953ede915a96c1f87772ee956399894d27d23"
+          }
+        },
+        {
+          "client_id": "892982683524-fpjn4vj80l9fhsvooj9uj0021u74cehc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJIud_iNCwQdmuHTztXfAw4WNc_fGhX7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892982683524-fpjn4vj80l9fhsvooj9uj0021u74cehc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
